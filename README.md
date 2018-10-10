@@ -46,6 +46,10 @@ config :logger, :dog_exceptex,
 If you wish to start a `Dogstatsd` process yourself, you may configure with `statsd_pid`.
 `Logger.configure_backend/2` is supported.
 
+## Phoenix / Plug support
+
+To support logging phoenix requests, add `use DogExceptex.Plug` below `use AppWeb, :router` in your router file.
+
 ## Docs
 
 Documentation can be generated with `mix docs`
