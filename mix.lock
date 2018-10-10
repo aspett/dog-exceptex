@@ -1,0 +1,4 @@
+%{
+  "accessible": {:hex, :accessible, "0.2.1", "09b2808ee9a451e392beab2766bec93daf2944ad31cc130b172fc49bde8edb3c", [:mix], [], "hexpm"},
+  "dogstatsd": {:hex, :dogstatsd, "0.0.4", "32574b218ce1bf61c50a957c08f12280dec674ca1ea2f168ac26557bdf3a5c88", [:mix], [], "hexpm"},
+}
